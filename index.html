@@ -12,21 +12,27 @@
 
     <script src="js/convert.js"></script>
 
+   <link rel="icon" href="./assets/favicon.ico">
+
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 
 <body>
-    <h1 id="title">Talk Like A Pirate</h1>
+    <div id="container">
+        <div class="flex">
+            <img id="banner" src="./assets/banner.png" alt="" width="500">
+        </div>
 
-    <div class="input_container">
-        <h3 id="input_header">Enter yer text here, matey</h3>
-        <input id="input_text" type="input">
-        <button id="convert_btn" onclick="updateOutputText()">Piratify!</button>
-    </div>
+        <div class="input_container">
+            <h3 id="input_header">Enter yer text here, matey</h3>
+            <input id="input_text" type="input">
+            <button id="convert_btn" onclick="updateOutputText()">Piratify!</button>
+        </div>
 
-    <div class="output_container">
-        <h3 id="output_header">Output</h3>
-        <p id="output_text">Output goes here!</p>
+        <div class="output_container">
+            <h3 id="output_header">Output</h3>
+            <p id="output_text">Output goes here!</p>
+        </div>
     </div>
 </body>
 

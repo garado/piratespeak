@@ -1,5 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English&display=swap');
+
 html {
-   scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 
 body {
@@ -8,17 +10,17 @@ body {
     justify-content: center;
     text-align: center;
     margin: auto;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'IM Fell English', sans-serif;
     line-height: 36px;
     font-size: 18px;
     color: var(--main-fg-color);
-    /* background-color: var(--main-bg-color); */
+    background-color: var(--main-bg-color);
     padding-bottom: 2em;
     transition: all 0.2s;
 }
 
-h1 {
-    color: var(--main-fg-color);
+h3 {
+    font-size: 18px;
 }
 
 .flex {
@@ -30,6 +32,16 @@ h1 {
 
 /* --- */
 
+#container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+
 #title {
-    font-family: 'skullsandcrossbones';
+  font-family: 'skullsandcrossbones';
 }
