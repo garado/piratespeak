@@ -1,13 +1,13 @@
 $(document).ready(function () {
   $("button#convert_btn").click(function () {
-    var text = $("p#input_text").text();
+    var text = $("input#input_text").val();
     $.post(
       "https://api.funtranslations.com/translate/pirate.json",
       {
         text: text,
       },
       function (data, status) {
-        $("p#output_text").text(data["contents"]);
+        $("p#output_text").text(data["contents"]["translated"]);
       }
     );
   });
