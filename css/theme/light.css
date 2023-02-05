@@ -1,0 +1,15 @@
+
+/* █░░ █ █▀▀ █░█ ▀█▀    ▀█▀ █░█ █▀▀ █▀▄▀█ █▀▀  */
+/* █▄▄ █ █▄█ █▀█ ░█░    ░█░ █▀█ ██▄ █░▀░█ ██▄  */
+
+:root {
+    --main-bg-color:        #F5D49F;
+    --main-fg-color:        #3E2417;
+
+    --profile-name-color:   #4c566a;
+    --main-subtitle-color:  #2e3440;
+    --link-base-color:      #5e81ac;
+    --link-hover-color:     #88c0d0;
+    --navbar-shadow-color:  #e0e3e7;
+    --section-content-title: #5e81ac;
+}
