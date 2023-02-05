@@ -4,41 +4,44 @@
 <!DOCTYPE html>
 <html id="top">
   <head>
-    <title>Pirate Speak Translator</title>
+  <title>Pirate Speak Translator</title>
 
-    <link
-      id="theme"
-      rel="stylesheet"
-      type="text/css"
-      href="css/theme/light.css"
-    />
-    <link rel="stylesheet" type="text/css" href="css/all.css" />
+  <link
+    id="theme"
+    rel="stylesheet"
+    type="text/css"
+    href="css/theme/light.css"
+  />
+  <link rel="stylesheet" type="text/css" href="css/all.css" />
 
-    <script src="jquery-3.6.3.min.js"></script>
-    <script src="js/convert.js"></script>
+  <script src="jquery-3.6.3.min.js"></script>
+  <script src="js/convert.js"></script>
 
-    <link rel="icon" href="./assets/favicon.ico">
+  <link rel="icon" href="./assets/favicon.ico">
 
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   </head>
 
   <body>
-    <div id="container">
-      <div class="flex">
-        <img id="banner" src="./assets/banner.png" alt="" width="500">
-      </div>
-
-      <div class="input_container">
-        <h3 id="input_header">Enter yer text here, matey</h3>
-        <input id="input_text" type="input">
-        <button id="convert_btn" onclick="updateOutputText()">Piratify!</button>
-      </div>
-
-      <div class="output_container">
-        <h3 id="output_header">Output</h3>
-        <p id="output_text">Output goes here!</p>
-      </div>
+  <div id="container">
+    <div class="flex">
+    <img id="banner" src="./assets/banner.png" alt="" width="700">
     </div>
+
+    <div id="input_container">
+    <textarea
+      id="input_text"
+      cols="40"
+      rows="5"
+      placeholder="Enter yer text here, matey"></textarea>
+    <button id="convert_btn">Piratify!</button>
+    </div>
+
+    <div class="output_container">
+    <h3 id="output_header">Output</h3>
+    <p id="output_text"></p>
+    </div>
+  </div>
   </body>
 
 </html>
