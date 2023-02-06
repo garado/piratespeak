@@ -1,0 +1,42 @@
+textarea {
+  width: 90%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: #f8f8f8;
+  font-size: 16px;
+  font-family: 'IM Fell English';
+  resize: none;
+}
+
+#input_container {
+}
+
+#banner {
+  width: 350px;
+}
+
+#container {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+#convert_btn {
+  font-family: 'IM Fell English';
+  background-color: #625858;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  margin: 15px;
+  padding: 12px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
